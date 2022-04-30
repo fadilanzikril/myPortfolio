@@ -497,6 +497,11 @@ footer a:hover {
     margin-top: 20px;
   }
 
+  .cardabout img {
+    margin-top: -170px;
+    /* margin-left: -20px; */
+  }
+
   .collapse {
     margin-top: 20px;
     background-color: rgb(40, 40, 40);
@@ -509,11 +514,11 @@ footer a:hover {
   }
 
   .wraper .sss2 {
-    margin-left: 170px;
+    margin-left: 220px;
   }
 
   .img_overlay {
-    height: 56vh;
+    height: 239px;
   }
 
   #serti .img_overlay {
