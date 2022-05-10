@@ -260,7 +260,7 @@ section .container {
   display: flex;
   margin-top: -40px;
   font-size: 16px;
-  margin-left: -185px;
+  margin-left: 0;
 }
 
 .tiping2 {
@@ -514,7 +514,7 @@ footer a:hover {
   }
 
   .wraper .sss2 {
-    margin-left: 220px;
+    margin-left: 100px;
   }
 
   .img_overlay {
