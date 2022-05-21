@@ -224,7 +224,7 @@ section .container {
 
 .cardabout {
   display: flex;
-  background: linear-gradient(#0a192f, #0a162a, #06101f) !important;
+  background: linear-gradient(#0a192f, #0a162a, #050c17) !important;
   height: 409px;
   border: none;
   /* margin-top: 200px; */
@@ -236,7 +236,7 @@ section .container {
 
 .cardabout img {
   display: flex;
-  margin-top: -166px;
+  margin-top: -170px;
   margin-left: -20px;
   /* margin-right: -300px; */
 }

@@ -22,13 +22,13 @@ $(window).scroll(function () {
     'transform': 'translate(0px, ' + wScroll / 4 + '%)'
   });
   $('.jumbo .myname').css({
-    'transform': 'translate(0px, ' + wScroll / 2.4 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 4 + '%)'
   });
   $('.jumbo h1').css({
     'transform': 'translate(0px, ' + wScroll / 2.4 + '%)'
   });
   $('.jumbo .wraper').css({
-    'transform': 'translate(0px, ' + wScroll / 2 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 2.2 + '%)'
   });
   $('.jumbo .btncontak').css({
     'transform': 'translate(0px, ' + wScroll / 2 + '%)'
