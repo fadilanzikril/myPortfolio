@@ -8,14 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
   <!-- boostrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
   <!-- fancybox img riview -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+
   <!-- Fonts -->
   <link rel="shorchut icon" href="foto/profil/Profil2.png">
   <!-- mycss -->
-  <link rel="stylesheet" href="css/style6.css">
+  <link rel="stylesheet" href="css/style8.css">
   <!--Icon-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <!-- Animasi Aos -->
@@ -55,7 +59,7 @@
             <a class="nav-link" aria-current="page" href="#serti">Certificate</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
         </ul>
       </div>
@@ -68,13 +72,29 @@
     <div class="container">
       <img src="foto/profil/Profil2.png" alt="profil" class="img-fluid rounded-circle">
       <div class="col hiding">
-        <h6 class="myname">My name is</h6>
-        <h1>Fadilahn Dzikril</h1>
-        <div class="wraper">
-          <div class="row">
-            <div class="txtdiam"> And I am a : <div class="sss"><span class="tiping"></span></div>
+        <div class="row justify-content-center pt-3">
+          <div class="col-md-4 name1">
+            <div class=" text-center text-white">
+              <h6 class="myname">My name is</h6>
             </div>
           </div>
+
+
+          <h1>Fadilahn Dzikril</h1>
+        </div>
+
+        <div class="row justify-content-center name2">
+          <div class="col-6 name">
+            <div class=" text-end text-white">
+              <h6 class="textdiam">My name is</h6>
+            </div>
+          </div>
+          <div class="col-6 ">
+            <div class=" text-start text-white">
+              <div class="myname"><span class="tiping"></span></div>
+            </div>
+          </div>
+
         </div>
 
         <div class=" row justify-content-center btncontak pt-3">
@@ -117,12 +137,12 @@
 
 
                 I hope to help fulfill what you are looking for in a web development project. Here are some of the
-                technologies I learned <i class="bi bi-arrow-right-square-fill" style="font-size: 15px;"> </i> </p>
-              <div class="wraper">
-                <div class="row">
-                  <div class="txtdiam">
-                    <div class="sss2"><span class="tiping2"></span></div>
-                  </div>
+                technologies I learned :
+              </p>
+              <div class="row name2 mb-4">
+                <div class="col">
+                  <div class=" text-start"> <i class="bi bi-arrow-right-square-fill"
+                      style="font-size: 18px; color:#ccd6f6;"> </i><span class="tiping2"></span></div>
                 </div>
               </div>
 
@@ -308,10 +328,6 @@
           </div>
         </div>
 
-
-        <!-- <a href="https://github.com/fadilanzikril?tab=repositories" class=" btn linkgithub bg-white text-center"
-          data-aos="fade-up" data-aos-duration="3000" target="blank">Visit
-          My Github <i class="bi bi-file-earmark-code-fill"></i></a> -->
       </div>
     </div>
   </section>
@@ -332,7 +348,11 @@
             <a href="foto/project/webBelajar.JPG" class="fancybox " data-fancybox="galerry1"><img
                 src="foto/project/webBelajar.JPG" class="card-img-top shadow-sm" alt="belajarweb">
               <div class=" img_overlay">
-                <div class="icon_view "><i class="bi bi-eye"></i></div>
+                <div class="icon_view ">
+                  <div class="icon_view ">
+                    <p>Kemenkraf</p>
+                  </div>
+                </div>
               </div>
             </a>
             <div class="card-body">
@@ -439,17 +459,40 @@
   </section>
 
   <!--======================== Skill ==============================-->
-  <section id="project" class="jumbo2">
+  <section id="skills" class="jumbo2">
     <div class="svgbutton">
 
     </div>
     <div class="container">
       <div class="row text-center mb-3">
         <div class="col hiding">
-          <h1>Proses </h1>
+          <h1>My Skills</h1>
         </div>
       </div>
-      <div class="row justify-content-center  read_container">
+      <div class="skills">
+        <label for="formFile" class="form-label labelskill ">HTML, CSS AND JAVASCRIPT</label>
+        <div class="gradeskill">
+        </div>
+        <div class="sizeskill satu "></div>
+        <label for="formFile" class="form-label labelskill">FRAMEWORK CSS AND JAVASCRIPT</label>
+        <div class="gradeskill">
+        </div>
+        <div class="sizeskill dua"></div>
+        <label for="formFile" class="form-label labelskill">RESPONSIVE AND MOBILE DESIGN </label>
+        <div class="gradeskill">
+        </div>
+        <div class="sizeskill tiga"></div>
+        <label for="formFile" class="form-label labelskill">PHP AND DATABASE MYSQL</label>
+        <div class="gradeskill">
+        </div>
+        <div class="sizeskill empat"></div>
+        <label for="formFile" class="form-label labelskill">TESTING AND DEBUGGING </label>
+        <div class="gradeskill">
+        </div>
+        <div class="sizeskill lima"></div>
+
+      </div>
+      <!-- <div class="row justify-content-center  read_container">
         <div class="col-md-6 mb-4">
           <div class="card shadow">
             <a href="" class="fancybox" data-fancybox="galerry1"><img src="" class="card-img-top" alt="belajarweb"></a>
@@ -497,7 +540,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
     </div>
   </section>
   <!--Akhir -->
@@ -505,29 +548,37 @@
   <!--Cosntact US-->
   <section id="contact">
     <div class="container">
-      <div class="row text-center mb-3">
+      <div class="row text-center">
         <div class="col hiding">
           <h1>Contact</h1>
         </div>
       </div>
+    </div>
+    <div class="container-fluid ">
       <div class="row justify-content-center">
-        <div class="col-md-8">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name">
+        <div class="col-lg-4">
+          <h2>Social Media</h2>
+          <div class="d-flex justify-content-evenly text-white mb-3">
+            <div class=" iconsvg icon1">
+              <a href=""><img class="icon insta" src="foto/svg/instagram.svg" alt="Bootstrap"></a>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email">
+            <div class=" iconsvg icon2">
+              <a href=""><img class="icon" src="foto/svg/facebook-f-brands.svg" alt="Bootstrap"></a>
             </div>
-            <div class="mb-3">
-              <label for="pesan" class="form-label">Massage</label>
-              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            <div class=" iconsvg icon3">
+              <a href=""><img class="icon" src="foto/svg/twitter-brands.svg" alt="Bootstrap"></a>
             </div>
-            <button type="submit" class="btn btn-success">Send</button>
-          </form>
+            <div class=" iconsvg icon4">
+              <a href=""><img class="icon" src="foto/svg/linkedin-in-brands.svg" alt="Bootstrap"></a>
+            </div>
+
+          </div>
         </div>
+        <div class="col-lg-4">
+
+        </div>
+        <div class="col-lg-4"></div>
+
       </div>
     </div>
   </section>
@@ -541,13 +592,21 @@
   </footer>
   <!--Akhir Footer-->
   <!-- boostrap -->
-  <script src="js/bootstrap.bundle.min.js"
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
+
   <!-- ajax -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- fancybox -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript"></script>
+
+
   <!-- typed text-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <!-- animasi AOS -->

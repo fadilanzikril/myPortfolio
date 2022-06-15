@@ -21,17 +21,17 @@ $(window).scroll(function () {
   $('.jumbo img').css({
     'transform': 'translate(0px, ' + wScroll / 4 + '%)'
   });
-  $('.jumbo .myname').css({
-    'transform': 'translate(0px, ' + wScroll / 4 + '%)'
+  $('.jumbo .name1').css({
+    'transform': 'translate(0px, ' + wScroll / 3.4 + '%)'
   });
   $('.jumbo h1').css({
-    'transform': 'translate(0px, ' + wScroll / 2.4 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 4 + '%)'
   });
-  $('.jumbo .wraper').css({
+  $('.jumbo .name2').css({
     'transform': 'translate(0px, ' + wScroll / 2.2 + '%)'
   });
   $('.jumbo .btncontak').css({
-    'transform': 'translate(0px, ' + wScroll / 2 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 3 + '%)'
   });
 });
 
@@ -101,16 +101,16 @@ $('.slickresponsive').slick({
 // });
 
 // baca selengkapnya
-const parentContainer = document.querySelector('.read_container');
-parentContainer.addEventListener('click', event => {
+// const parentContainer = document.querySelector('.read_container');
+// parentContainer.addEventListener('click', event => {
 
-  const current = event.target;
-  const isbacaBtn = current.className.includes('btn_baca');
-  if (!isbacaBtn) return;
-  const currentText = event.target.parentNode.querySelector('.baca_text');
-  currentText.classList.toggle('baca_show');
-  current.textContent = current.textContent.includes('Selengkapnya') ? "Tutup" : "Selengkapnya...";
-});
+//   const current = event.target;
+//   const isbacaBtn = current.className.includes('btn_baca');
+//   if (!isbacaBtn) return;
+//   const currentText = event.target.parentNode.querySelector('.baca_text');
+//   currentText.classList.toggle('baca_show');
+//   current.textContent = current.textContent.includes('Selengkapnya') ? "Tutup" : "Selengkapnya...";
+// });
 
 
 

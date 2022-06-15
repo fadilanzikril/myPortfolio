@@ -123,31 +123,22 @@ body {
   letter-spacing: 4px;
 }
 
-.wraper .txtdiam {
+
+.name .textdiam {
   color: var(--lavender);
-  font-size: 25px;
+  font-size: 20px;
   text-shadow:
     -1px -1px 0 rgba(255, 255, 255, 0.5),
     1px 1px 0 rgba(0, 0, 0, .25),
     3px 3px 3px rgba(0, 0, 0, .25),
     5px 5px 10px rgba(0, 0, 0, 0.25);
   letter-spacing: 2px;
-  display: flex;
-  margin-left: 400px;
-
-}
-
-.wraper .sss {
-  background-color: var(--gray);
-  padding: 0 2px 0 2px;
-  border-radius: 5px;
-  margin-left: 5px;
 }
 
 .tiping {
   color: var(--green);
   font-weight: 600;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 section.jumbo {
@@ -196,10 +187,6 @@ section .container {
     5px 5px 10px rgba(0, 0, 0, 0.25);
   letter-spacing: 2px;
   color: var(--green);
-  display: flex;
-  margin-bottom: -5px;
-  margin-left: 365px;
-  padding-top: 10px;
 }
 
 .btn a {
@@ -256,16 +243,6 @@ section .container {
   color: var(--navyppp);
 }
 
-.wraper .sss2 {
-  display: flex;
-  margin-top: -40px;
-  font-size: 16px;
-  margin-left: 0;
-}
-
-.tiping2 {
-  color: var(--green);
-}
 
 #about .btncontak {
   display: flex;
@@ -421,8 +398,20 @@ p {
   height: 27vh;
 }
 
+#serti .img_overlay .icon_view P {
+  font-size: 18px;
+}
+
 #serti .card-body {
-  background-color: var(--green);
+  background-color: var(--lavender);
+
+}
+
+#serti .card-body p {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--black);
+
 }
 
 #serti .card-body:hover {
@@ -435,6 +424,99 @@ section {
   padding-bottom: 5rem;
   overflow: hidden;
 }
+
+/* ====================== skills ==================== */
+#skills .skills .labelskill {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#skills .skills .gradeskill {
+  border-radius: 5px;
+  width: 100%;
+  height: 19px;
+  background-color: var(--lavender);
+}
+
+#skills .skills .sizeskill {
+  position: relative;
+  top: -17px;
+  left: 4px;
+  height: 15px;
+  margin-bottom: 2px;
+  background-color: var(--red);
+  box-shadow: 1px 1px 2px black;
+}
+
+#skills .skills .sizeskill.satu {
+  width: 89%;
+}
+
+#skills .skills .sizeskill.dua {
+  width: 90%;
+}
+
+#skills .skills .sizeskill.tiga {
+  width: 85%;
+}
+
+#skills .skills .sizeskill.empat {
+  width: 83%;
+}
+
+#skills .skills .sizeskill.lima {
+  width: 90%;
+}
+
+/* contact */
+#contact h2 {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+:root {
+  --icon1: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  --icon2: #3b5998;
+  --icon3: #00acee;
+  --icon4: #0e76a8;
+}
+
+
+#contact .iconsvg {
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#contact .iconsvg:hover {
+  transform: scale(1.2);
+}
+
+#contact .iconsvg.icon1 {
+  background: var(--icon1);
+}
+
+#contact .icon {
+  width: 40px;
+  height: 40px;
+  filter: invert(96%) sepia(1%) saturate(763%) hue-rotate(277deg) brightness(111%) contrast(74%);
+}
+
+#contact .iconsvg.icon2 {
+  background: var(--icon2);
+}
+
+#contact .iconsvg.icon3 {
+  background: var(--icon3);
+}
+
+#contact .iconsvg.icon4 {
+  background: var(--icon4);
+}
+
 
 /* ====================== footer ==================== */
 footer {
@@ -481,20 +563,13 @@ footer a:hover {
     padding-top: 0;
   }
 
-  .myname {
-    margin-left: 68px;
-  }
-
-  .wraper .txtdiam {
-    margin-left: 100px;
-  }
 
   .linkgithub {
     width: 40%;
   }
 
   .aboutconten {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .cardabout img {
@@ -513,9 +588,6 @@ footer a:hover {
     padding: 20px;
   }
 
-  .wraper .sss2 {
-    margin-left: 100px;
-  }
 
   .img_overlay {
     height: 239px;
