@@ -19,19 +19,19 @@ $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
 
   $('.jumbo img').css({
-    'transform': 'translate(0px, ' + wScroll / 4 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 3 + '%)'
   });
   $('.jumbo .name1').css({
-    'transform': 'translate(0px, ' + wScroll / 3.4 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 4 + '%)'
   });
   $('.jumbo h1').css({
     'transform': 'translate(0px, ' + wScroll / 4 + '%)'
   });
   $('.jumbo .name2').css({
-    'transform': 'translate(0px, ' + wScroll / 2.2 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 2 + '%)'
   });
   $('.jumbo .btncontak').css({
-    'transform': 'translate(0px, ' + wScroll / 3 + '%)'
+    'transform': 'translate(0px, ' + wScroll / 2 + '%)'
   });
 });
 
