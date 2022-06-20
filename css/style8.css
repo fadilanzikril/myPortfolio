@@ -638,6 +638,18 @@ footer a:hover {
     margin: auto;
   }
 
+  #serti .card-body p {
+    font-size: 12px;
+    color: var(--black);
+
+  }
+
+  .navbar-toggler {
+    background-color: var(--gray);
+
+  }
+
+
   /* .swiper-slide {
     padding: 20px;
   }
