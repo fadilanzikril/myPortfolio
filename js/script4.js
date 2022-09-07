@@ -14,6 +14,23 @@ $(window).scroll(function () {
   }
 });
 
+// dark-mode
+const lia = document.querySelector('.navbar-nav');
+const ulli = lia.getElementsByTagName('i')[0];
+const html = document.querySelector('html');
+
+ulli.addEventListener('click', function () {
+  if (html.dataset.colorDark === 'light') {
+    html.dataset.colorDark = 'dark';
+    this.classList.replace('bi-brightness-high-fill', 'bi-moon-fill');
+  } else {
+    html.dataset.colorDark = 'light';
+    this.classList.replace('bi-moon-fill', 'bi-brightness-high-fill');
+  }
+});
+
+
+
 // parallax profil
 $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
