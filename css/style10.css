@@ -486,7 +486,7 @@ section {
 }
 
 #skills .skills .sizeskill.satu {
-  width: 89%;
+  width: 85%;
   /* animation: animasiGrade 2s ease; */
 }
 
@@ -501,20 +501,28 @@ section {
 } */
 
 #skills .skills .sizeskill.dua {
-  width: 90%;
+  width: 80%;
 }
 
 #skills .skills .sizeskill.tiga {
-  width: 85%;
+  width: 70%;
 }
 
 #skills .skills .sizeskill.empat {
-  width: 83%;
+  width: 89%;
 }
 
 #skills .skills .sizeskill.lima {
-  width: 90%;
+  width: 60%;
 }
+
+#skills .skills .sizeskill.enam {
+  width: 50%;
+}
+
+/* #skills .skills .sizeskill.lima {
+  width: 30%;
+} */
 
 /* contact */
 #contact h2 {
@@ -522,6 +530,7 @@ section {
   text-align: center;
   color: var(--lavender2);
   margin-bottom: 40px;
+
 }
 
 :root {
@@ -646,7 +655,7 @@ footer a:hover {
 
   .cardabout img {
     margin-top: -170px;
-    /* margin-left: -20px; */
+    margin-left: -40px;
   }
 
   .collapse {
@@ -684,6 +693,10 @@ footer a:hover {
   .navbar-toggler {
     background-color: var(--gray);
 
+  }
+
+  #contact h2 {
+    margin: 50px 0 50px 0;
   }
 
 
